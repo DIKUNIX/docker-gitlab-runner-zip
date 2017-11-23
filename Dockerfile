@@ -4,6 +4,6 @@ MAINTAINER Oleks <oleks@oleks.info>
 
 USER root
 
-RUN apk --no-cache add zip unzip
+RUN apk --no-cache add zip unzip git
 
 USER docker
